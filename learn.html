@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="/images/icon.png" type="image/png">
+
+    <script src="https://use.fontawesome.com/e3be706541.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/learn.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/learn.css">
+    
+
+    <title>Главная</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <img src="images/logo.png" alt="">
+            <hr>
+            <nav>
+                <ul>
+                    <li><i class="fa fa-home"></i><a href="main.html">Главная</a></li>
+                    <li class="active"><i class="fa fa-graduation-cap"></i><a href="learn.html">Изучения</a></li>
+                    <li><i class="fa fa-plane"></i><a href="plan.html">План наряд</a></li>
+                    <li><i class="fa fa-book"></i><a href="library.html">Библиотека</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+        <!-- content -->
+        <div class="content">
+            <!-- header -->
+            <div class="header">
+
+                <div class="back">
+                    <a href="main.html"><img src="images/arrow-l.svg" alt="" width="22px"></a>
+                    <a href="main.html"><p>Назад на главную</p></a>
+                    <h1>К ознакомлению</h1>
+                </div>
+
+                <div class="links">
+                    <a href="#"><img src="images/envelope.svg" alt="" width="22px"></a>
+                    <a href="#"><img src="images/bell.svg" alt="" width="27px"></a>
+                    <a href="#"><img src="images/setting.svg" alt="" width="18px"></a>
+                    <div class="hr"></div>
+                    <p>Timur.Valiyev</p>
+                    <a href="#"><img src="images/arrow-d.svg" alt="" width="22px" class="arrow-d"></a>
+                </div>
+            </div>
+
+            <div class="form">
+                <input type="text" placeholder="Поиск документа">
+                <button>Выполнить поиск</button>
+                <p>Показать не изученные</p>
+                <label class="ios7-switch">
+                    <input type="checkbox" checked id="check">
+                    <span></span>
+                </label>
+            </div>
+
+            <table>
+                    <tr class="head">
+                        <td>№ документа</td>
+                        <td class="name">Наименование</td>
+                        <td>Дата публикации</td>
+                        <td>Ознакомиться до</td>
+                        <td>Ссылка на документ</td>
+                        <td>К ознакомлению</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Месячный отчет БП полетов ИЮНЬ 2020г.</td>
+                        <td>20.07.2020г.</td>
+                        <td>28.07.2020г.</td>
+                        <td><a href="#">Скачать</a></td>
+                        <td>
+                            <div class="first"><input type="checkbox" class="checkbox" num="0"><p> Я хочу изучить</p></div>
+                            <div class="second"><span>Изучено</span><span class="date"></span></div>
+                        </td>
+                        <td class="info"><button class="glasses"><i class="fa fa-info"></button></i></td>
+                    </tr>
+            </table>
+        </div>
+
+        <!-- modal -->
+        <div class="modal">
+            <p>Вы действительно  хотите <br>
+               Изучить этот документ?</p>
+            <div class="btns">
+                <button class="accept">Подтвердить</button>
+                <button class="cancel">Отменить</button>
+            </div>
+        </div>
+
+        <!-- modal-2 -->
+        <div class="modal-2">
+            <h5>Информация о документе</h5>
+
+            <div class="tables">
+                <table>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                </table>
+    
+                <table>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                    <tr>
+                        <td class="number">1</td>
+                        <td>Коломейцев Игорь Валентинович</td>
+                        <td class="false">Не изучен</td>
+                    </tr>
+                </table>
+            </div>
+
+            <button class="cancel">Закрыть</button>
+        </div>
+    </div>
+
+
+</body>
+</html>

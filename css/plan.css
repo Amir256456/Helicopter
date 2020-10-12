@@ -1,0 +1,75 @@
+.form{
+    height: 75px;
+}
+.form .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.form .column .row, .form .form-item .row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.form .column .row input{
+    height: 27px;
+}
+.form .column .row p{
+    margin-left: 26px;
+}
+.form .column .row label{
+    margin-top: -1px;
+}
+.form .form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.form .form-item .row input{
+    width: 98.94px;
+    height: 27px;
+}
+.form .form-item p{
+    margin-right: 150px;
+    margin-bottom: 5px;
+}
+
+/* table */
+.content .date{
+    width: 97.5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.content .date h2{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+}
+.content table tr.head td{
+    background: #ffffff;
+}
+.content table tr.head td{
+    background: #d1d1d1;
+}
+.content table tr td{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #595959;
+}
+.content table tr td.big{
+    width: 550px;
+}
+.content table tr td.small{
+    width: 100px;
+}
+

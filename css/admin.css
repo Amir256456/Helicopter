@@ -1,0 +1,78 @@
+.content .header .back a h1{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    color: #1AD474;
+    margin-left: 15px;
+}
+.content .header .back a h1 span{
+    color: #000000;
+}
+.content .header .back h1{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #5E5959;
+}
+.content .tabs{
+    width: 98%;
+    height: 40px;
+    margin: 10px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content .tabs ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
+}
+.content .tabs ul li{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-bottom: 2px solid transparent;
+}
+.content .tabs ul li.active{
+    border-bottom: 2px solid #1AD474;
+}
+.content .tabs ul li a{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 14px;
+    color: #716E6E;
+}
+.content .form .search{
+    width: 48%;
+}
+.content .form .create{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.content .form .create button{
+    width: 140px;
+    height: 32px;
+    background: #1AD474;
+    border-radius: 3px;
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #404040;
+}

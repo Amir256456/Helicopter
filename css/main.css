@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Exo 2', sans-serif;
+    text-decoration:none;
+    list-style-type:none;
+}
+
+.container{
+    display: flex;
+}
+
+/* sidebar */
+.sidebar{
+    width: 177px;
+    height: 100vh;
+    background: #393848;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar img{
+    width: 162px;
+    height: 43px;
+    margin-left: 30px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar hr{
+    color: white;
+    width: 115px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.23);
+}
+
+/* nav */
+.sidebar nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar nav ul li{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10px;
+    border: 3px solid transparent;
+    transition: all 0.6s;
+}
+.sidebar nav ul li i{
+    color: #CAC7C7;
+    font-size: 18px;
+    width: 20px;
+    margin-left: 20px;
+}
+.sidebar nav ul li a{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 20px;
+    color: #CAC7C7;
+}
+.sidebar nav ul li.active{
+    border-left-color: #1AD474;
+    border-width: 3px;
+}
+.sidebar nav ul li:hover{
+    border-left-color: #1AD474;
+    border-width: 3px;
+}
+.sidebar nav ul li.active i, .sidebar nav ul li.active a{
+    color: #ffffff;
+}
+.sidebar nav ul li.active i{
+    margin-left: 17px;
+}
+.content{
+    width: 100%;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* header */
+.content .header{
+    width: 98%;
+    height: 60px;
+    margin: 10px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.content .header img{
+    margin-right: 15px;
+    margin-top: 4px;
+}
+.content .header .hr{
+    height: 18px;
+    width: 1px;
+    background-color: #5E5959;
+    margin-right: 10px;
+}
+.content .header p{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 14px;
+    color: #5E5959;
+}
+.content .header img.arrow-d{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
